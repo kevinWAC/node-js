@@ -1,19 +1,16 @@
 {
-  "name": "node",
+  "name": "collegues-console",
   "version": "1.0.0",
-  "description": "",
+  "description": " Administration Collegues",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kevinWAC/node-js.git"
-  },
-  "author": "",
+  "keywords": [],
+  "author": "Kévin Ulreich",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kevinWAC/node-js/issues"
-  },
-  "homepage": "https://github.com/kevinWAC/node-js#readme"
+  "dependencies": {
+    "node-fetch": "^3.2.0"
+  }
 }
